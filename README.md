@@ -48,7 +48,7 @@ Este é um projeto de front-end estático. Não é necessário nenhum servidor, 
     ```
 2.  **Navegue até a pasta do projeto:**
     ```bash
-    cd [SEU-REPOSITORIO]
+    cd MVP-Tere-Verde
     ```
 3.  **Abra o arquivo principal no seu navegador:**
     Basta dar um duplo-clique no arquivo `index.html`.
