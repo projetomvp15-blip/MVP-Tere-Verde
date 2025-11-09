@@ -25,7 +25,7 @@ body {
 header {
     background: transparent;
     padding: 5px 0;
-    border-bottom: 2px solid #0a4a1b; /* Verde escuro */
+    border-bottom: 2px solid #0a4a1b;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     grid-row: 1;
 }
