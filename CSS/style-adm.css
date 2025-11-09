@@ -1,0 +1,160 @@
+/* Reset Básico e Fontes */
+body, h1, h2, h3, h4, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #333;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('/img/fundo\ slide\ linhas\ medias.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho*/
+header {
+    background: transparent;
+    padding: 5px 0;
+    border-bottom: 2px solid #0a4a1b; /* Verde escuro */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    height: 150px;
+    color: #0a4a1b;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #555;
+    padding-bottom: 5px;
+}
+
+header nav a.active,
+header nav a:hover {
+    color: #1a9c3d; /* Verde mais claro */
+    border-bottom: 2px solid #1a9c3d;
+}
+
+/* Rodapé*/
+footer {
+    color: #333;
+    padding: 100px 0;
+    text-align: center;
+}
+footer p {
+    color: #fff;
+    margin-bottom: -100px;
+}
+footer .admin-login {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: underline;
+}
+footer .admin-login:hover {
+    color: #1a9c3d;
+}
+
+/* Título da Página*/
+.page-title {
+    background: rgba(23, 107, 92, 0.6);
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+}
+.page-title h2 {
+    color: #fff;
+    font-size: 32px;
+}
+
+
+/* --- Estilos do Painel de Controle (Dashboard) --- */
+
+.admin-dashboard-section {
+    padding: 40px 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.admin-dashboard-section .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.admin-dashboard-section h3 {
+    text-align: center;
+    font-size: 26px;
+    color: #0a4a1b;
+    margin-bottom: 10px;
+}
+
+.dashboard-subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Grade de Opções */
+.admin-options-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+/* Card de Opção Individual */
+.admin-option-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 25px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.admin-option-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    color: #1a9c3d;
+}
+
+.admin-option-card h4 {
+    font-size: 22px;
+    color: #0a4a1b;
+    margin-bottom: 10px;
+}
+
+.admin-option-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.admin-dashboard-section-adm {
+    padding: 40px 0;
+}
