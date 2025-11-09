@@ -44,7 +44,7 @@ Este é um projeto de front-end estático. Não é necessário nenhum servidor, 
 
 1.  **Clone este repositório:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[SEU-USUARIO]/[SEU-REPOSITORIO].git
+    git clone (https://github.com/projetomvp15-blip/MVP-Tere-Verde.git)
     ```
 2.  **Navegue até a pasta do projeto:**
     ```bash
