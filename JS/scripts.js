@@ -1,3 +1,4 @@
+
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
 
@@ -19,8 +20,14 @@ function openTab(evt, tabName) {
     if (evt && evt.currentTarget) {
         evt.currentTarget.className += " active";
     }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Procura o primeiro botão de aba na página
     var firstTabButton = document.querySelector(".tab-link");
+    
+    // Se encontrou, clica nele UMA VEZ para abrir a primeira aba por padrão
     if (firstTabButton) {
         firstTabButton.click();
     }
-}
+});
