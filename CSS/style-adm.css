@@ -25,7 +25,7 @@ body {
 header {
     background: transparent;
     padding: 5px 0;
-    border-bottom: 2px solid #0a4a1b; /* Verde escuro */
+    border-bottom: 2px solid #0a4a1b;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -54,7 +54,7 @@ header nav a {
 
 header nav a.active,
 header nav a:hover {
-    color: #1a9c3d; /* Verde mais claro */
+    color: #1a9c3d;
     border-bottom: 2px solid #1a9c3d;
 }
 
@@ -156,4 +156,94 @@ footer .admin-login:hover {
 }
 .admin-dashboard-section-adm {
     padding: 40px 0;
+}
+/* --- Estilos dos Formulários Admin (Eventos, Condições, etc.) --- */
+
+.admin-form-section {
+    padding: 40px 0;
+    background-color: rgba(255, 255, 255, 0.9); 
+}
+
+.admin-form-section .container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.admin-form-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.admin-form-card h3 {
+    text-align: center;
+    color: #0a4a1b;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="date"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Botão de Envio */
+.admin-form-card .btn {
+    display: block;
+    width: fit-content;
+    padding: 12px;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    cursor: pointer;
+    background: #1a9c3d;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    font-weight: bold;
+}
+
+.admin-form-card .btn:hover {
+    background: #0a4a1b;
+}
+
+/* Botão de Voltar */
+.btn-voltar {
+    display: inline-block;
+    margin-top: 30px;
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-voltar:hover {
+    color: #0a4a1b;
 }
