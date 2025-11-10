@@ -23,7 +23,6 @@ Este MVP de front-end oferece uma experiência de usuário (visitante) completa 
 ### Funcionalidades Implementadas
 
 * **Navegação Multi-página:** Um site coeso com várias páginas (Home, Trilhas, Cachoeiras, etc.).
-* **Design Responsivo (Base):** O layout é fluido e se adapta a diferentes tamanhos de tela.
 * **Abas (Tabs) com JavaScript:** As páginas de detalhe dos parques (`parque.html`, `petp.html`, `pnmmt.html`) usam JavaScript para alternar o conteúdo entre "Sobre", "Informações" e "Trilhas".
 * **Layout Moderno:** Uso de transparência, Flexbox e Grid para criar uma interface moderna.
 
