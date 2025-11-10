@@ -55,6 +55,14 @@ Este é um projeto de front-end estático. Não é necessário nenhum servidor, 
 
 4.  **Abra o arquivo do administrador no seu navegador:**
     Basta dar um duplo-clique no arquivo `admin-login-page.html`.
+    
+---
+
+## 🌐 Live Demo
+
+Você pode visualizar a versão publicada deste projeto diretamente no GitHub Pages através do seguinte link:
+
+[Acessar Terê Verde Online](https://projetomvp15-blip.github.io/MVP-Tere-Verde/Frontend/)
 
 ---
 
