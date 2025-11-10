@@ -10,7 +10,7 @@ body, h1, h2, h3, h4, p, ul, li, a {
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    background-image: url('/img/fundo\ slide\ linhas\ medias.png');
+    background-image: url('img/fundo\ slide\ linhas\ medias.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
