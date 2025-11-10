@@ -10,7 +10,7 @@ body, h1, h2, h3, h4, p, ul, li, a {
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    background-image: url('img/fundo\ slide\ linhas\ medias.png');
+    background-image: url('img/fundo%20slide%20linhas%20medias.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ header nav a:hover {
 
 /* Home */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/teresopolis\ BR\ menor.png') no-repeat center center/cover;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/teresopolis%20BR%20menor.png') no-repeat center center/cover;
     color: #fff;
     padding: 100px 0;
     text-align: center;
