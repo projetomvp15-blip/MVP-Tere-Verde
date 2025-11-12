@@ -159,12 +159,12 @@ footer .admin-login:hover {
 }
 /* --- Estilos dos Formulários Admin --- */
 
-.admin-form-section {
+.admin-form-gerencial {
     padding: 40px 0;
     background-color: rgba(255, 255, 255, 0.9); 
 }
 
-.admin-form-section .conteudo {
+.admin-form-gerencial .conteudo {
     max-width: 700px;
     margin: 0 auto;
 }
