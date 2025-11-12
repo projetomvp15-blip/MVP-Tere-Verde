@@ -60,19 +60,19 @@ header nav a:hover {
 }
 
 /* Home */
-.hero {
+.banner-principal {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/teresopolis BR menor.png') no-repeat center center/cover;
     color: #fff;
     padding: 100px 0;
     text-align: center;
     min-height: 100px;
 }
-.hero h2 {
+.banner h2 {
     color: #fff;
     font-size: 40px;
     margin-bottom: 10px;
 }
-.hero p {
+.banner p {
     color: #eee;
     font-size: 20px;
 }
