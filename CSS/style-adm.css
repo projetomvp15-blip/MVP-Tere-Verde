@@ -95,24 +95,24 @@ footer .admin-login:hover {
 
 /* --- Estilos do Painel de Controle (Dashboard) --- */
 
-.admin-dashboard-section {
+.admin-painel {
     padding: 40px 0;
     background-color: rgba(255, 255, 255, 0.9);
 }
 
-.admin-dashboard-section .conteudo {
+.admin-painel .conteudo {
     max-width: 900px;
     margin: 0 auto;
 }
 
-.admin-dashboard-section h3 {
+.admin-painel h3 {
     text-align: center;
     font-size: 26px;
     color: #0a4a1b;
     margin-bottom: 10px;
 }
 
-.dashboard-subtitle {
+.admin-painel-subtitulo {
     text-align: center;
     font-size: 18px;
     color: #333;
@@ -120,14 +120,14 @@ footer .admin-login:hover {
 }
 
 /* Grade de Opções */
-.admin-options-grid {
+.admin-opcoes-grade {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
 
 /* caixa de Opção Individual */
-.admin-option-caixa {
+.admin-opcoes-caixa {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -138,23 +138,23 @@ footer .admin-login:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.admin-option-caixa:hover {
+.admin-opcoes-caixa:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0,0,0,0.1);
     color: #1a9c3d;
 }
 
-.admin-option-caixa h4 {
+.admin-opcoes-caixa h4 {
     font-size: 22px;
     color: #0a4a1b;
     margin-bottom: 10px;
 }
 
-.admin-option-caixa p {
+.admin-opcoes-caixa p {
     font-size: 16px;
     line-height: 1.5;
 }
-.admin-dashboard-section-adm {
+.admin-painel-adm {
     padding: 40px 0;
 }
 /* --- Estilos dos Formulários Admin --- */
