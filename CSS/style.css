@@ -67,12 +67,12 @@ header nav a:hover {
     text-align: center;
     min-height: 100px;
 }
-.banner h2 {
+.banner-principal h2 {
     color: #fff;
     font-size: 40px;
     margin-bottom: 10px;
 }
-.banner p {
+.banner-principal p {
     color: #eee;
     font-size: 20px;
 }
