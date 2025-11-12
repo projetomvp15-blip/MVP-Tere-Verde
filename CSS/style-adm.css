@@ -15,7 +15,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
 }
-.container {
+.conteudo {
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
@@ -29,7 +29,7 @@ header {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-header .container {
+header .conteudo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,7 +78,7 @@ footer .admin-login:hover {
 }
 
 /* Título da Página*/
-.page-title {
+.titulo-pagina {
     background: rgba(23, 107, 92, 0.6);
     padding: 20px 0;
     text-align: center;
@@ -88,7 +88,7 @@ footer .admin-login:hover {
     justify-content: center;
     min-height: 100px;
 }
-.page-title h2 {
+.titulo-pagina h2 {
     color: #fff;
     font-size: 32px;
 }
@@ -100,7 +100,7 @@ footer .admin-login:hover {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
-.admin-dashboard-section .container {
+.admin-dashboard-section .conteudo {
     max-width: 900px;
     margin: 0 auto;
 }
@@ -164,7 +164,7 @@ footer .admin-login:hover {
     background-color: rgba(255, 255, 255, 0.9); 
 }
 
-.admin-form-section .container {
+.admin-form-section .conteudo {
     max-width: 700px;
     margin: 0 auto;
 }
@@ -184,23 +184,23 @@ footer .admin-login:hover {
     font-size: 24px;
 }
 
-.form-group {
+.form-grupo {
     margin-bottom: 20px;
     text-align: left;
 }
 
-.form-group label {
+.form-grupo label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
     color: #333;
 }
 
-.form-group input[type="text"],
-.form-group input[type="password"],
-.form-group input[type="date"],
-.form-group select,
-.form-group textarea {
+.form-grupo input[type="text"],
+.form-grupo input[type="password"],
+.form-grupo input[type="date"],
+.form-grupo select,
+.form-grupo textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -209,12 +209,12 @@ footer .admin-login:hover {
     box-sizing: border-box;
 }
 
-.form-group textarea {
+.form-grupo textarea {
     resize: vertical;
 }
 
 /* Botão de Envio */
-.admin-form-card .btn {
+.admin-form-card .botao {
     display: block;
     width: fit-content;
     padding: 12px;
@@ -231,12 +231,12 @@ footer .admin-login:hover {
     font-weight: bold;
 }
 
-.admin-form-card .btn:hover {
+.admin-form-card .botao:hover {
     background: #0a4a1b;
 }
 
 /* Botão de Voltar */
-.btn-voltar {
+.botao-voltar {
     display: inline-block;
     margin-top: 30px;
     color: #555;
@@ -244,6 +244,6 @@ footer .admin-login:hover {
     font-weight: bold;
 }
 
-.btn-voltar:hover {
+.botao-voltar:hover {
     color: #0a4a1b;
 }

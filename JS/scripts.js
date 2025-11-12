@@ -23,10 +23,9 @@ function openTab(evt, tabName) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Procura o primeiro botão de aba na página
+ 
     var firstTabButton = document.querySelector(".tab-link");
     
-    // Se encontrou, clica nele UMA VEZ para abrir a primeira aba por padrão
     if (firstTabButton) {
         firstTabButton.click();
     }

@@ -15,7 +15,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
 }
-.container {
+.conteudo {
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
@@ -30,7 +30,7 @@ header {
     grid-row: 1;
 }
 
-header .container {
+header .conteudo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -115,7 +115,7 @@ header nav a:hover {
     font-size: 15px;
     color: #666;
 }
-.btn {
+.botao {
     display: inline-block;
     background: #1a9c3d;
     color: #fff;
@@ -127,7 +127,7 @@ header nav a:hover {
     margin-top: auto;
     align-self: flex-start;
 }
-.btn:hover {
+.botao:hover {
     background: #0a4a1b;
 }
 
@@ -149,17 +149,17 @@ header nav a:hover {
 }
 
 /* Título da Página*/
-.page-title {
-    background: rgba(23, 107, 92, 0.6);
+.titulo-pagina {
+    background:rgba(23, 107, 92, 0.6);
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     min-height: 100px;
 }
-.page-title h2 {
+.titulo-pagina h2 {
     color: #fff;
     font-size: 32px;
 }
@@ -295,8 +295,8 @@ footer .admin-login:hover {
 
 /* Formulário de Login Administrador */
 
-.login-form-section-adm .container,
-.admin-panel .container {
+.login-form-section-adm .conteudo,
+.admin-panel .conteudo {
     max-width: 450px;
     margin: 10px auto;
 }
@@ -317,22 +317,22 @@ footer .admin-login:hover {
     font-size: 24px;
 }
 
-.form-group {
+.form-grupo {
     margin-bottom: 20px;
     text-align: left;
 }
 
-.form-group label {
+.form-grupo label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
     color: #333;
 }
 
-.form-group input[type="text"],
-.form-group input[type="password"],
-.form-group input[type="date"],
-.form-group select {
+.form-grupo input[type="text"],
+.form-grupo input[type="password"],
+.form-grupo input[type="date"],
+.form-grupo select {
     width: calc(100% - 20px);
     padding: 10px;
     border: 1px solid #ccc;
@@ -340,12 +340,12 @@ footer .admin-login:hover {
     font-size: 16px;
 }
 
-.form-group input[type="date"] {
+.form-grupo input[type="date"] {
     appearance: none;
 }
 
-.login-card .btn,
-.admin-card .btn {
+.login-card .botao,
+.admin-card .botao {
     display: inline-block;
     width: fit-content;
     margin-left: auto;
