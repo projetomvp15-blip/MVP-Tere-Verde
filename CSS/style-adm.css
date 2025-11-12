@@ -22,58 +22,58 @@ body {
 }
 
 /* Cabeçalho*/
-cabecalho {
+header {
     background: transparent;
     padding: 5px 0;
     border-bottom: 2px solid #0a4a1b;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-cabecalho .conteudo {
+header .conteudo {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-cabecalho .logo {
+header .logo {
     height: 150px;
     color: #0a4a1b;
 }
 
-cabecalho nav ul {
+header nav ul {
     display: flex;
     gap: 20px;
 }
 
-cabecalho nav a {
+header nav a {
     font-weight: 500;
     font-size: 16px;
     color: #555;
     padding-bottom: 5px;
 }
 
-cabecalho nav a.active,
-cabecalho nav a:hover {
+header nav a.active,
+header nav a:hover {
     color: #1a9c3d;
     border-bottom: 2px solid #1a9c3d;
 }
 
 /* Rodapé*/
-rodape {
+footer {
     color: #333;
     padding: 100px 0;
     text-align: center;
 }
-rodape p {
+footer p {
     color: #fff;
     margin-bottom: -100px;
 }
-rodape .admin-login {
+footer .admin-login {
     color: #fff;
     font-size: 14px;
     text-decoration: underline;
 }
-rodape .admin-login:hover {
+footer .admin-login:hover {
     color: #1a9c3d;
 }
 
