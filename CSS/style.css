@@ -27,7 +27,7 @@ body {
 }
 
 /* Cabeçalho */
-header {
+cabecalho {
     background: transparent;
     padding: 5px 0;
     border-bottom: 2px solid #0a4a1b;
@@ -35,31 +35,31 @@ header {
     grid-row: 1;
 }
 
-header .conteudo {
+cabecalho .conteudo {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header .logo {
+cabecalho .logo {
     height: 150px;
     color: #0a4a1b;
 }
 
-header nav ul {
+cabecalho nav ul {
     display: flex;
     gap: 20px;
 }
 
-header nav a {
+cabecalho nav a {
     font-weight: 500;
     font-size: 16px;
     color: #555;
     padding-bottom: 5px;
 }
 
-header nav a.active,
-header nav a:hover {
+cabecalho nav a.active,
+cabecalho nav a:hover {
     color: #1a9c3d;
     border-bottom: 2px solid #1a9c3d;
 }
@@ -280,21 +280,21 @@ header nav a:hover {
 
 
 /* Rodapé */
-footer {
+rodape {
     color: #333;
     padding: 5px 0;
     text-align: center;
 }
-footer p {
+rodape p {
     color: #fff;
     margin-bottom: 0px;
 }
-footer .admin-login {
+rodape .admin-login {
     color: #fff;
     font-size: 14px;
     text-decoration: underline;
 }
-footer .admin-login:hover {
+rodape .admin-login:hover {
     color: #1a9c3d;
 }
 
