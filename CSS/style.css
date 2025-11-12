@@ -363,3 +363,15 @@ footer .admin-login:hover {
     padding: 40px 0;
     margin-top: -20px;
 }
+/* Botão de Voltar */
+.botao-voltar {
+    display: inline-block;
+    margin-top: 30px;
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao-voltar:hover {
+    color: #0a4a1b;
+}
