@@ -6,13 +6,31 @@ Este projeto é um MVP (Minimum Viable Product) de front-end desenvolvido como p
 
 ---
 
-## 🎯 Situação-Problema Escolhida
+## ⚠️Situação-Problema Escolhida
 
 A situação-problema é a **Circuito Terê Verde**. O desafio é desenvolver um website que simplifique o processo de consulta sobre biodiversidade, trilhas, eventos e condições das atrações naturais para visitantes dos parques de Teresópolis:
 
 * Parque Nacional da Serra dos Órgãos (PARNASO)
 * Parque Estadual dos Três Picos (PETP)
 * Parque Natural Municipal Montanhas de Teresópolis (PNMMT)
+
+---
+
+## 🎯 Público-Alvo
+
+* Turistas de Aventura: Pessoas de outras cidades/estados que vêm a Teresópolis especificamente para o montanhismo e trilhas.
+* Turistas "Casuais" e Famílias: Visitantes que buscam atividades ao ar livre mais leves, como trilhas fáceis, mirantes e cachoeiras.
+* Moradores Locais: Pessoas da própria cidade que buscam opções de lazer para o fim de semana e querem saber sobre eventos ou condições dos parques;
+* Equipes de Gestão: Os funcionários dos três parques (PARNASO, PETP, PNMMT) que são responsáveis por atualizar o público.
+
+---
+
+### 😣 Dores do Público-Alvo
+
+* Informação Fragmentada: Muitos sites e informações dispersas sobre os parques e suas trilhas.
+* Informação Desatualizada: Informações antigas e sem acompanhamento em tempo real.
+* Incerteza no Planejamento: Falta de integração e comunicação prejudica o planejamento dos moradores e turistas.
+* Insegurança: Ausência de um aplicativo com alertas climáticos e condições das trilhas gera insegurança nos visitantes.
 
 ---
 
@@ -35,6 +53,8 @@ O desenvolvimento visual do projeto passou por duas etapas de prototipação par
 * **Baixa Fidelidade:** Criado utilizando Paint, focado na estrutura básica e disposição dos elementos.
 
 * **Média Fidelidade:** Desenvolvido no Figma, detalhando o design, cores, tipografia e fluxo de navegação.
+
+As 3 telas prototipadas no Figma foram: Home Page, Página dos Parques e a Página de Login do Administrador.
 
 ---
 
